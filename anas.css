@@ -1,0 +1,85 @@
+*{
+     transition: all 0.8s;
+}
+body{
+ justify-content: center; 
+}
+
+.anas-sec , .anas-nv  {
+     border-radius:25px;
+    margin: 8px 20px;
+       background-color: rgba(22, 15, 15, 0.411);
+      
+}
+.anaselmesse {
+   padding: 8px 50px;
+    border-radius:25px;
+    margin: 8px 20px;
+       background-color: rgba(22, 15, 15, 0.411);
+}
+.anas-nv:hover , .anas-sec:hover , .anaselmesse:hover {
+
+     background-color: rgba(0, 0, 0, 0.438);
+     margin: 8px 20px;
+}
+.a-t-black {
+color: black;
+}
+.a-t-white {
+    color: white;
+}
+.farbe-red {
+ transition: all 0.2s;
+    background-color: red; border-radius: 200px; padding: 0px 11px; justify-content:center; margin: auto; color: red;
+}
+.farbe-red:hover {
+    transform : scale(1.4);
+    cursor: pointer;
+}
+.farbe-red:active {
+    transform : scale(1.1);
+    cursor: pointer;
+}
+.ncolor{
+    background-color: rgb(119, 8, 8);
+}
+
+
+
+.ncolor {
+  --c: #fff;
+  /* text color */
+  background: linear-gradient(90deg, rgba(218, 191, 191, 0) 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    #b91010;
+  /* background color */
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+.ncolor:hover,
+.ncolor:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+  color: white;
+}
+.ncoloroutline:hover{
+    color: red;
+}
+
+.dropdown-item:hover{
+    color: red;
+}
+.bgg{
+    background-color: rgba(22, 15, 15, 0.411);
+    border-radius:25px;
+}
+.bgg:hover{
+     background-color: rgba(0, 0, 0, 0.438);
+}
