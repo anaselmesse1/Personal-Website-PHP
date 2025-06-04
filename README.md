@@ -13,11 +13,17 @@ This site serves as my digital portfolio and a space to share my journey in the 
 🧰 Technologies Used
 
 I built this website without using major frameworks, to showcase my understanding of core web development technologies:
+
 	•	HTML5
+ 
 	•	CSS3 – with Bootstrap for responsive design
+ 
 	•	Vanilla JavaScript
+ 
 	•	Vanilla PHP
+ 
 	•	MySQL – for managing dynamic content and data
+
 
 ⸻
 
