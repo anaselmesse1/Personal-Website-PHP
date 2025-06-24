@@ -17,6 +17,19 @@ body{
     margin: 8px 20px;
        background-color: rgba(22, 15, 15, 0.411);
 }
+.anaselmessee {
+    border-radius:25px;
+    margin: 8px 20px;
+     
+}
+.blu {
+     background-color: rgba(0, 0, 0, 0.411);
+     backdrop-filter: blur(50px);
+     -wevkit-backdrop-filter: blur(5px);
+}
+a{
+  color: red;
+}
 .anas-nv:hover , .anas-sec:hover , .anaselmesse:hover {
 
      background-color: rgba(0, 0, 0, 0.438);

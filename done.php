@@ -10,6 +10,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="anas.css" />
+   <style>
+    html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
+   </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body class="bg-dark">
@@ -42,28 +54,61 @@
   </div>
 </nav>
 
-<nav class="g navbar-dark p-4 anas-nv">
-  <div class="container px-5 d-flex" id="xx">
-    <p style="color: rgb(49, 153, 49); margin: auto;">✔️ Nachricht erfolgreich gesendet!</p>
-  <a class="ncolor btn" href="index.html" >zurück zur Startseite</a>
+<nav class="navbar navbar-dark bg-dark anaselmessee blu p-4 shadow-lg" >
+  <div class="container px-5 d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div class="d-flex align-items-center mb-3 mb-md-0">
+      <i class="bi bi-check-circle-fill text-success fs-4 me-2"></i>
+      <p class="mb-0 text-success fw-bold animate__animated animate__fadeInDown">
+        Nachricht erfolgreich gesendet!
+      </p>
+    </div>
+    <a class="btn btn-outline-success fw-semibold px-4 py-2 ncolor" href="index.html">
+      <i class="bi bi-house-door-fill me-2"></i>Zurück zur Startseite
+    </a>
   </div>
-  
 </nav>
- <footer class="anaselmesse py-4   " style="margin-top: 365px">
-            <div class=" px-4 ">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy;2025</div></div>
-                    <div class="col-auto">
-                       
-                        <a class="link-light small" target="_blank" href="mailto:anaselmessoual@gmail.com">anaselmessoual@gmail.com</a>
-                         <a class="link-light small" target="_blank" href="tel:+212637421688">+212 6374-21688</a>
-                    </div>
-                </div>
-            </div>
-        </footer>   
-<script>
+                 
+      <footer class="anaselmesse text-white py-4 mt-auto" >
+  <div class="container px-4">
+    <div class="row align-items-center justify-content-between text-center text-sm-start">
+      <!-- Copyright -->
+      <div class="col-sm-auto mb-2 mb-sm-0">
+        <div class="small">
+          &copy; 2025 Anas Elmessoual – Alle Rechte vorbehalten
+        </div>
+      </div>
 
-</script>
+      <!-- Kontaktinfos -->
+      <div class="col-sm-auto">
+        <div class="d-flex flex-column flex-sm-row align-items-center gap-2">
+          <a class="link-light small d-flex align-items-center text-decoration-none" href="mailto:anaselmessoual@gmail.com" target="_blank">
+            <i class="bi bi-envelope-fill me-2"></i>anaselmessoual@gmail.com
+          </a>
+          <a class="link-light small d-flex align-items-center text-decoration-none" href="tel:+212637421688" target="_blank">
+            <i class="bi bi-telephone-fill me-2"></i>+212 6374-21688
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+  <script>
+    VANTA.HALO({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      baseColor: 0xf70000,
+      backgroundColor: 0x000000,
+      amplitudeFactor: 1.10,
+      xOffset: -0.13,
+      yOffset: -0.07,
+      size: 1.80
+    });
+  </script>  
 
 </body>
 </html>
