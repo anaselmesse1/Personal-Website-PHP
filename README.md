@@ -1,45 +1,44 @@
-# 🧑‍💻 My Personal Website
+# 🌐 Personal Portfolio – Anas Elmessoual
 
-This is my personal website, fully developed by me from scratch. It includes all the key information about who I am:
-	•	✍️ Personal details
-	•	🛠️ My projects
-	•	🧭 My career path
-	•	📝 Content I’ve written from personal experience
+Welcome to my personal portfolio project!
 
-This site serves as my digital portfolio and a space to share my journey in the world of technology and development.
+This website is a modern and interactive showcase of my career as an **IT Specialist – Application Development**, including real-world projects, technical skills, and professional goals.
 
-⸻
+---
 
-🧰 Technologies Used
+## 💻 Technologies & Tools
+- 🌐 **HTML5**, 🎨 **CSS3 / Bootstrap 5**
+- ⚙️ **Vanilla JavaScript**
+- 🗃️ **PHP & MySQL** (for practical use cases)
+- ✨ **Vanta.js** (HALO effect)
+- 📱 **Fully responsive design**
 
-I built this website without using major frameworks, to showcase my understanding of core web development technologies:
+---
 
-	•	HTML5
- 
-	•	CSS3 – with Bootstrap for responsive design
- 
-	•	Vanilla JavaScript
- 
-	•	Vanilla PHP
- 
-	•	MySQL – for managing dynamic content and data
+## 📌 What’s included?
+- 👨‍💻 **About Me** – Education, languages, motivation  
+- 🧠 **Why Application Development?** – with real-life examples  
+- 🛠️ **Projects** – Student management system, online booking platform, call center internship  
+- 💬 **Testimonial** – Personal statement and fictional feedback  
+- 📞 **Footer** – E-mail and phone number for direct contact  
+- 🔝 **Scroll-to-top button**, UI details & background animations
 
+---
 
-⸻
+## 🎯 Purpose
 
-🌐 Live Demo
+I aim to demonstrate how **digital applications** can make our lives **simpler, more efficient, and better** – whether in healthcare, education, or everyday situations.
 
-👉 (https://www.elmessoual.wuaze.com/index.html)
+My goal is to use well-designed software to create a **positive impact on society**.
 
-⸻
+---
 
-📩 Contact
+## 🔗 Live & Contact
 
-If you have feedback or would like to connect:
-📧 anaselmessoual@gmail.com
+- 🌍 **Live Demo**: [Visit the Website]([https://www.elmesso](https://www.elmessoual.wuaze.com/index.html))  
+- 📬 **Email**: [anaselmessoual@gmail.com](mailto:anaselmessoual@gmail.com)  
+- 📞 **Phone**: [+212 6374-21688](tel:+212637421688)  
 
-⸻
+---
 
-💡 Note
-
-This project is part of my personal portfolio. It’s meant to demonstrate my skills and document my progress as a developer. Any feedback is welcome!
+> ✅ This project is open source. Feel free to explore, adapt, or contribute!
